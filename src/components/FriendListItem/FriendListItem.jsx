@@ -2,7 +2,6 @@ import styles from './FriendListItem.module.css';
 import clsx from "clsx";
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
-    console.log(styles.online)
   return (
     <li className={styles.friend_list_item}>
       <div className={styles.friend_card}>
